@@ -1,7 +1,11 @@
-import * as React from 'react'
+import React, { ReactNode} from 'react'
 import Helmet from 'react-helmet'
 
-export default function Layout({ children }) {
+interface Props {
+  children: ReactNode
+}
+
+export default function Layout({ children }: Props) {
   return (
     <div className="layout">
       <Helmet defer={false} >
