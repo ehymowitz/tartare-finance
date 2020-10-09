@@ -2,7 +2,7 @@ import * as React from 'react'
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <footer className="footer">
       <a>
         <h4>
           Livestock Contract
@@ -28,6 +28,6 @@ export default function Footer() {
           Medium
         </h4>
       </a>
-    </div>
+    </footer>
   )
 }
