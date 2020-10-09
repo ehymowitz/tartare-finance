@@ -22,11 +22,16 @@
     height: 30px;
     color: white;
     border-radius: 5px;
-    border: none;
+    border: 1px solid black;
     background-color: black;
+    transition: 500ms ease;
     h3 {
       margin: 0;
       padding: 0 20px;
     }
+  }
+  button:hover {
+    color: black;
+    background-color: white;
   }
 }
