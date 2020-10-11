@@ -1,6 +1,6 @@
 import React from 'react'
 import Img from 'gatsby-image'
-import { useStaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql, Link } from 'gatsby'
 
 export default function Nav() {
   const logo = useStaticQuery(graphql`
@@ -26,16 +26,16 @@ export default function Nav() {
           fixed = {logo.allFile.edges[0].node.childImageSharp.fixed}
         />
       </div>
-      <a>
+      <Link to="/">
         <h4>
           Home
         </h4>
-      </a>
-      <a>
+      </Link>
+      <Link to="/livestock">
         <h4>
           Livestock
         </h4>
-      </a>
+      </Link>
       <a>
         <h4>
           Le Tartare

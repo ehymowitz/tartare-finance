@@ -1,0 +1,86 @@
+.livestock {
+  padding-top: 30px;
+  width: 60vw;
+  margin: 0 auto;
+
+  div {
+    text-align: center;
+
+    .text {
+      h1, h3 {
+        margin: 0;
+      }
+    }
+
+    .livestock-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 23px;
+      margin: 30px auto;
+
+      .livestock-card {
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 5px;
+
+        .emoji {
+          border: 2px solid black;
+          height: 60px;
+          width: 60px;
+          border-radius: 50%;
+          margin: 0 auto;
+          margin-top: 10px;
+          h1 {
+            margin: 0;
+            margin-top: 8px;
+          }
+
+        }
+        p {
+          margin: 0;
+        }
+
+        button {
+          height: 50px;
+          width: 85%;
+          color: white;
+          border-radius: 5px;
+          border: 1px solid black;
+          background-color: black;
+          position: relative;
+          margin: 15px auto;
+          transition: 500ms ease;
+          h3 {
+            margin: 0;
+            padding: 0 20px;
+          }
+        }
+        button:hover {
+          color: black;
+          background-color: white;
+        }
+
+        .amount-display {
+          display: flex;
+          justify-content: space-around;
+          background-color: #656565;
+          width: 85%;
+          height: 30px;
+          color: white;
+          border-radius: 5px;
+          margin: 0 auto;
+          margin-bottom: 15px;
+          align-items: center;
+        }
+      }
+
+      .tartare {
+        border-radius: 5px;
+        background: conic-gradient(from 180deg at 50% 50%, #FF0000 0deg, #FF9900 45deg, #FAFF00 91.88deg, #00FF0A 136.88deg, #00F0FF 180deg, #2400FF 226.87deg, #FF00D6 273.75deg, #FF005C 318.75deg, #FF0000 360deg);
+        div {
+          margin: 3px;
+        }
+      }
+    }
+  }
+}
