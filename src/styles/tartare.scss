@@ -1,4 +1,4 @@
-.livestock {
+.tartare {
   padding-top: 30px;
   width: 60vw;
   margin: 0 auto;
@@ -10,18 +10,23 @@
       h1, h3 {
         margin: 0;
       }
+
+      .bigger-emoji {
+        font-size: 40px;
+      }
     }
 
-    .livestock-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-gap: 23px;
-      margin: 30px auto;
+    .trades {
+      margin: 20px 0;
+      display: flex;
+      justify-content: space-evenly;
 
-      .livestock-card {
+      .trade-card {
         background-color: white;
         border: 2px solid black;
         border-radius: 5px;
+
+        width: 40%;
 
         .emoji {
           border: 2px solid black;
@@ -36,8 +41,11 @@
           }
 
         }
-        p {
-          margin: 0;
+        .text {
+          margin-top: 15px;
+          h2, p {
+            margin: 0;
+          }
         }
 
         button {
@@ -59,29 +67,11 @@
           color: black;
           background-color: white;
         }
-
-        .amount-display {
-          display: flex;
-          justify-content: space-between;
-          background-color: #656565;
-          width: 78%;
-          height: 30px;
-          color: white;
-          border-radius: 5px;
-          margin: 0 auto;
-          padding: 0 10px;
-          margin-bottom: 15px;
-          align-items: center;
-        }
       }
+    }
 
-      .letartare {
-        border-radius: 5px;
-        background: conic-gradient(from 180deg at 50% 50%, #FF0000 0deg, #FF9900 45deg, #FAFF00 91.88deg, #00FF0A 136.88deg, #00F0FF 180deg, #2400FF 226.87deg, #FF00D6 273.75deg, #FF005C 318.75deg, #FF0000 360deg);
-        div {
-          margin: 3px;
-        }
-      }
+    .footer {
+      margin-top: 40px;
     }
   }
 }

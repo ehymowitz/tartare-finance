@@ -31,7 +31,7 @@ export default function Livestock() {
         <BloodBackgroundCenter>
           <div className="text">
             <Img
-              fixed  = {meat.allFile.edges[0].node.childImageSharp.fixed }
+              fixed = {meat.allFile.edges[0].node.childImageSharp.fixed }
             />
             <h1>Livestock</h1>
             <h3>Earn $MEAT by feeding the animals</h3>
@@ -41,7 +41,7 @@ export default function Livestock() {
             <LivestockCard title="Beef" trade="YAM" emoji="🐄"/>
             <LivestockCard title="Salmon" trade="SUSHI" emoji="🐟"/>
             <LivestockCard title="Kangaroo" trade="AMPLE" emoji="🦘"/>
-            <div className="tartare">
+            <div className="letartare">
               <LivestockCard title="Le Tartare!" trade="YAM" emoji="🥩"/>
             </div>
             <LivestockCard title="Unicorn" trade="UNI" emoji="🦄"/>

@@ -8,8 +8,8 @@ interface Props {
 
 export default function BloodBackgroundCenter({children}: Props) {
   const blood = useStaticQuery(graphql`
-    query BloodCenterQuery {
-      allFile(filter: {absolutePath: {regex: "/blood/"}}) {
+    query BloodSideQuery {
+      allFile(filter: {absolutePath: {regex: "/blood-center/"}}) {
         edges {
           node {
             childImageSharp {

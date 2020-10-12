@@ -10,6 +10,7 @@
   }
 
   a {
+    color: black;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -17,9 +18,6 @@
       padding: 0;
       margin: 0;
     }
-  }
-  a:visited {
-    color: black;
   }
 
   button {

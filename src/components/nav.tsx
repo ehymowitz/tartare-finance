@@ -22,9 +22,11 @@ export default function Nav() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <Img
-          fixed = {logo.allFile.edges[0].node.childImageSharp.fixed}
-        />
+        <Link to="/" >
+          <Img
+            fixed = {logo.allFile.edges[0].node.childImageSharp.fixed}
+          />
+        </ Link>
       </div>
       <Link to="/">
         <h4>
@@ -36,21 +38,21 @@ export default function Nav() {
           Livestock
         </h4>
       </Link>
-      <a>
+      <Link to="/tartare">
         <h4>
           Le Tartare
         </h4>
-      </a>
-      <a>
+      </Link>
+      <Link to="/govern">
         <h4>
           Govern
         </h4>
-      </a>
-      <a>
+      </Link>
+      <Link to="/faq">
         <h4>
           FAQ
         </h4>
-      </a>
+      </Link>
       <button>
         <h3>
           Unlock Wallet
