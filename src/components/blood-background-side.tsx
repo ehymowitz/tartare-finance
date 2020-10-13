@@ -6,10 +6,10 @@ interface Props {
   children: ReactNode
 }
 
-export default function BloodBackgroundCenter({children}: Props) {
+export default function BloodBackgroundSide({children}: Props) {
   const blood = useStaticQuery(graphql`
-    query BloodCenterQuery {
-      allFile(filter: {absolutePath: {regex: "/blood-center/"}}) {
+    query BloodSideQuery {
+      allFile(filter: {absolutePath: {regex: "/blood-side/"}}) {
         edges {
           node {
             childImageSharp {
