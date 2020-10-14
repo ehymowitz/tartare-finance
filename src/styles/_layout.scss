@@ -1,9 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&display=swap');
 // cabin font, 400 and 500
 body {
-  padding: 20px;
+  padding: 20px 0;
+  margin: 0
 }
 
 * {
   font-family: 'Cabin', sans-serif;
+}
+
+.bigger-emoji {
+  font-size: 40px;
+}
+
+button {
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: black;
+  transition: 500ms ease;
+  h3 {
+    margin: 0;
+    padding: 0 20px;
+  }
+}
+button:hover {
+  color: black;
+  background-color: white;
 }

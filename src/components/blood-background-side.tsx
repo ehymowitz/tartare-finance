@@ -23,10 +23,12 @@ export default function BloodBackgroundSide({children}: Props) {
     }
   `)
 
+  // doesn't work with svgs
+
   return (
     <BackgroundImage
     fluid = {blood.allFile.edges[0].node.childImageSharp.fluid}
-    style = {{backgroundSize: "contain", height: '100%', width: '100%'}}
+    style = {{backgroundSize: "cover", height: 'auto', width: '100vw'}}
     >
       {children}
     </BackgroundImage>
