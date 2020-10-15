@@ -10,8 +10,8 @@ interface Props {
 export default function TradeCard({title, subtitle, emoji, buttonText}: Props) {
   return (
     <div className="trade-card">
-      <div className="emoji">
-        <h1>{emoji}</h1>
+      <div className={emoji==="🥩🍳" ? "emoji tartare-emoji" : "emoji"}>
+        <h1 className={emoji==="🥩🍳" ? "tartare-emoji" : ""}>{emoji}</h1>
       </div>
       <div className="text">
         <h2>{title}</h2>

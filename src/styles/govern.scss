@@ -10,6 +10,14 @@
       h1, h3 {
         margin: 0;
       }
+
+      .inline {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100px;
+        grid-gap: 5px;
+        margin: 0 auto;
+      }
     }
 
     .register {

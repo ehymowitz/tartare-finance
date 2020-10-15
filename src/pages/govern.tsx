@@ -7,10 +7,10 @@ import BloodBackgroundSide from '../components/blood-background-side'
 export default function Govern() {
   return (
     <Layout >
-      <Nav />
       <div className="govern">
+        <Nav />
         <BloodBackgroundSide>
-          <h1 className="bigger-emoji">🥩</h1>
+          <h1 className="bigger-emoji tartare-emoji">🥩‍‍🍳</h1>
           <div className="text">
             <h1>Governance</h1>
             <h3>Vote on new LP proposals using $TRTR</h3>
@@ -23,6 +23,9 @@ export default function Govern() {
               </h3>
             </button>
           </div>
+          {
+            // refactor using <table> tags instead
+          }
           <div className="lp">
             <div className="header">
               <p>Description</p>
@@ -47,7 +50,10 @@ export default function Govern() {
             </div>
           </div>
           <div className="text">
-            <h1 className="bigger-emoji">🥩🥩</h1>
+            <span className="inline">
+              <h1 className="bigger-emoji">🥩</h1>
+              <h1 className="bigger-emoji tartare-emoji">🥩🍳</h1>
+            </span>
             <h3>Vote on new meta-LP proposals using equal value of $TRTR + $MEAT</h3>
           </div>
           <div className="register">
@@ -70,9 +76,9 @@ export default function Govern() {
               <p>No Active Proposals</p>
             </div>
           </div>
-        <Footer/>
-        </BloodBackgroundSide>
-      </div>
+          <Footer/>
+          </BloodBackgroundSide>
+        </div>
     </Layout>
   )
 }

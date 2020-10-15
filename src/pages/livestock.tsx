@@ -42,7 +42,7 @@ export default function Livestock() {
             <LivestockCard title="Salmon" trade="SUSHI" emoji="🐟"/>
             <LivestockCard title="Kangaroo" trade="AMPLE" emoji="🦘"/>
             <div className="letartare">
-              <LivestockCard title="Le Tartare!" trade="YAM" emoji="🥩"/>
+              <LivestockCard title="Le Tartare!" trade="YAM" emoji="🥩🍳"/>
             </div>
             <LivestockCard title="Unicorn" trade="UNI" emoji="🦄"/>
             <LivestockCard title="Sheep" trade="YFI" emoji="🐑"/>

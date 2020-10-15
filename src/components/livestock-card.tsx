@@ -10,7 +10,7 @@ export default function LivestockCard({title, trade, emoji}: Props) {
   return (
     <div className="livestock-card">
       <div className="emoji">
-        <h1>{emoji}</h1>
+        <h1 className={emoji==="🥩🍳" ? "tartare-emoji" : ""}>{emoji}</h1>
       </div>
       <h1>{title}</h1>
       <p>Deposit ETH/{trade} LP Tokens</p>
