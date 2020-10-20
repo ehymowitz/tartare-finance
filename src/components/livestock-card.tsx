@@ -14,7 +14,7 @@ export default function LivestockCard({title, trade, emoji}: Props) {
       </div>
       <h1>{title}</h1>
       <p>Deposit ETH/{trade} LP Tokens</p>
-      <p>Earn $MEAT</p>
+      <p>Earn {emoji=="🥩🍳" ? "$TRTR" : "$MEAT"}</p>
       <button><h3>Select</h3></button>
       <div className="amount-display">
         <p>APY</p>

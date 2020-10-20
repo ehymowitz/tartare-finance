@@ -7,8 +7,8 @@ import BloodBackgroundSide from '../components/blood-background-side'
 export default function Govern() {
   return (
     <Layout >
+      <Nav />
       <div className="govern">
-        <Nav />
         <BloodBackgroundSide>
           <h1 className="bigger-emoji tartare-emoji">🥩‍‍🍳</h1>
           <div className="text">

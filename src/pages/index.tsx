@@ -11,7 +11,7 @@ export default function Home() {
       <div className="not-connected">
         <BloodBackgroundCenter>
           <div className="text">
-            <h1 className="bigger-emoji">🔪</h1>
+            <h1 className="biggest-emoji">🔪</h1>
             <h1>Bienvenue to Le Tartare Finance</h1>
             <h3>It's always a pleasure to have you here!</h3>
           </div>
