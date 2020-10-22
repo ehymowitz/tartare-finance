@@ -17,8 +17,8 @@ export default function Tartare() {
             <h3>Use your $MEAT to prepare some $TRTR</h3>
           </div>
           <div className="trades">
-            <TradeCard title="X.XXX" subtitle="$TRTR Earned" emoji="🥩🍳" buttonText="Harvest"/>
             <TradeCard title="X.XXX" subtitle="MEAT/ETH LP Tokens Staked" emoji="🥩" buttonText="Approve MEAT/ETH LP"/>
+            <TradeCard title="X.XXX" subtitle="$TRTR Earned" emoji="🥩🍳" buttonText="Harvest"/>
           </div>
           <h3>
             Everytime you stake and unstake LP tokens, the contract will automeatically harvest rewards for you!

@@ -4,7 +4,6 @@ import Nav from '../components/nav'
 import Footer from '../components/footer'
 import BloodBackgroundCenter from '../components/blood-background-center'
 import LivestockCard from '../components/livestock-card'
-import Img from 'gatsby-image'
 
 export default function Livestock() {
   return (
