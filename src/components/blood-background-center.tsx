@@ -25,8 +25,8 @@ export default function BloodBackgroundCenter({children}: Props) {
 
   return (
     <BackgroundImage
-    fluid = {blood.allFile.edges[0].node.childImageSharp.fluid}
-    style = {{backgroundSize: "contain", height: '100%', width: '100%'}}
+      fluid = {blood.allFile.edges[0].node.childImageSharp.fluid}
+      style = {{backgroundSize: "contain", height: '100%', width: '100%'}}
     >
       {children}
     </BackgroundImage>

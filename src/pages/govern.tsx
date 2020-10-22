@@ -49,33 +49,6 @@ export default function Govern() {
               </div>
             </div>
           </div>
-          <div className="text">
-            <span className="inline">
-              <h1 className="bigger-emoji">🥩</h1>
-              <h1 className="bigger-emoji tartare-emoji">🥩🍳</h1>
-            </span>
-            <h3>Vote on new meta-LP proposals using equal value of $TRTR + $MEAT</h3>
-          </div>
-          <div className="register">
-            <h3>Register to vote</h3>
-            <button>
-              <h3>
-                Register
-              </h3>
-            </button>
-          </div>
-          <div className="lp">
-            <div className="header">
-              <h3>Description</h3>
-              <div className="right">
-                <h3>Status</h3>
-                <h3>Action</h3>
-              </div>
-            </div>
-            <div className="row">
-              <p>No Active Proposals</p>
-            </div>
-          </div>
           <Footer/>
           </BloodBackgroundSide>
         </div>
